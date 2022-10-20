@@ -1,0 +1,40 @@
+
+<div class="container">
+    <p>AGREGAR CLIENTES</p>
+    <div class="row">
+        <div class="col-sm-6">
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Fecha Emision</label>
+                    <input [(ngModel)]="cliente.fechaEmision" type="text" class="form-control" name="fecha">
+                </div>
+            
+                <div class="mb-3">
+                    <label class="form-label">Cliente</label>
+                    <input [(ngModel)]="cliente.cliente" type="text" class="form-control" name="cliente">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Direccion</label>
+                    <input [(ngModel)]="cliente.direccion" type="text" class="form-control" name="direccion">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">ruc</label>
+                    <input [(ngModel)]="cliente.ruc" type="text" class="form-control" name="ruc">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">tipo de Moneda</label>
+                    <input [(ngModel)]="cliente.tipoMoneda" type="text" class="form-control" name="tipomoneda">
+                </div>
+                
+                <button (click)="agregar()" class="btn btn-primary">Agregar</button>
+            </form>
+        </div>
+
+
+        
+    </div>
+    
+</div>
