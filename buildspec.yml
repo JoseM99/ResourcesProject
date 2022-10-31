@@ -12,6 +12,6 @@ phases:
     commands:
       - ng build --prod
 artifacts:
-  base-directory: dist/GeneralCrud
+  base-directory: dist/my-angular-project
   files:
     - '**/*'
